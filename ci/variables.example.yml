@@ -1,0 +1,60 @@
+cf-api-url: api.sys.longs.pal.pivotal.io
+cf-username: csco3pl@gmail.com
+cf-password: 9af86504
+cf-org: dlim-pal
+github-repository: git@github.com:DongsikLim/pal-tracker.git
+github-private-key: |
+  -----BEGIN RSA PRIVATE KEY-----
+  Proc-Type: 4,ENCRYPTED
+  DEK-Info: AES-128-CBC,FF636DF8F5D3424EDE84C38713C4B634
+
+  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
+  -----END RSA PRIVATE KEY-----
