@@ -5,10 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan({
-        "io.pivotal.pal.tracker",
-        "io.pivotal.pal.welcome"
-})
 @SpringBootApplication
 public class PalTrackerApplication {
 
