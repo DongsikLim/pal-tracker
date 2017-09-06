@@ -13,11 +13,11 @@ dependencies{
 }
 
 bootRun.environment([
-        "WELCOME_MESSAGE": "hello",
+        "WELCOME_MESSAGE": "A welcome message",
 ])
 
 test.environment([
-        "WELCOME_MESSAGE": "Hello from test",
+        "WELCOME_MESSAGE": "A welcome message",
 ])
 
 
