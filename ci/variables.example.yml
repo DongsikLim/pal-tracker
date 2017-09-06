@@ -55,3 +55,6 @@ github-private-key: |
   Y4da12l7o8umF/iyWSLWICE17SAR/aS54HTbdAjaxsMDEXWKxtz4TAFgK0PQj6x3
   RbhJQhrcc0xwTRlBAFwy/2T9BlqdEO81LmBLqJoQdNQmj2DCJdGUJJKsl1wW
   -----END RSA PRIVATE KEY-----
+aws-access-key-id: AKIAID5EPRQIVXJMB3DQ
+aws-secret-access-key: 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
+aws-bucket: dagpivotal
