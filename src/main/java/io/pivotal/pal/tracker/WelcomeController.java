@@ -15,7 +15,7 @@ public class WelcomeController {
 
     @GetMapping("/")
     public String sayHello() {
-        return "Hello from Cloud Foundry";
+        return "A welcome message";
     }
 
 }
