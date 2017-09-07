@@ -18,7 +18,7 @@ run:
   args:
   - -exc
   - |
-    funcion stop_mysql{
+    function stop_mysql{
       service mysql stop
     }
     trap stop_mysql EXIT
