@@ -1,5 +1,6 @@
 package io.pivotal.pal.tracker;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -14,8 +15,11 @@ public class PalTrackerApplication {
         SpringApplication.run(PalTrackerApplication.class, args);
     }
 
+    @Autowired
+    DataSource dataSource;
+
     @Bean
-    TimeEntryRepository timeEntryRepository(DataSource dataSource) {
+    TimeEntryRepository timeEntryRepository() {
         return new JdbcTimeEntryRepository(dataSource);
     }
 }
